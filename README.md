@@ -5,7 +5,7 @@ To illustrate double ML in an example with high dimensional controls, I investig
 I estimate the treatment effect of the 401(k) participation on total household wealth. The response y is 'tw', and the treatment d is the binary indicator 'p401', i1-i7 are income wealth categories, a1-a7 are categories for the age of the reference household member, and the remaining variables represent demographic information such as family size (fsize), whether the household member has completed high school (hs), some college (smcol), owns a house (hown), participates in an IRA savings plan (pira), or has a deferred benefits pension plan (db). [We convert inc to be measured in units of 10,000 to avoid numeric overload when computing quadratic and cubic transformations.]
 
 ### Conclusions
-Detailed in the jupyter notebook, the merits of the different model approaches are weighed in this analysis.
+The merits of the different model approaches are explored in detail in the Jupyter Notebook file.
 
 ##### This project is part of my MS Quantitative Economics coursework from California Polytechnic State University. 
 ##### Course: Machine Learning for Prediction and Causal Inference
